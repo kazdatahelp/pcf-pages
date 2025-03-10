@@ -1,98 +1,15 @@
-site_name: PCF Pages
-site_description: Process Classification Framework (PCF) Documentation
-site_author: Mikhail Cheng
-site_url: https://mikhailcheng.github.io/pcf-pages
-site_dir: site
-docs_dir: docs
-use_directory_urls: false
-
-theme:
-  name: material
-  language: en
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.expand
-    - toc.follow
-    - toc.integrate
-    - content.code.copy
-    - content.code.annotate
-    - search.suggest
-    - search.highlight
-    - search.share
-    - header.autohide
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  font:
-    text: Roboto
-    code: Roboto Mono
-  icon:
-    repo: fontawesome/brands/github
-
-plugins:
-  - search
-
-markdown_extensions:
-  - meta
-  - def_list
-  - attr_list
-  - md_in_html
-  - admonition
-  - footnotes
-  - tables
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-
-extra_css:
-  - assets/stylesheets/extra.css
-
+site_name: PCF Catalog
+theme: material
 nav:
   - Home: index.md
-  - Vision and Strategy:
-    - Overview: vision_and_strategy/index.md
-    - Define Business Concept:
-      - External Environment: vision_and_strategy/1.1.1_evaluate_external_environment.md
-      - Long-term Vision: vision_and_strategy/1.1.2_define_long_term_vision.md
-      - Internal Environment: vision_and_strategy/1.1.3_assess_internal_environment.md
-      - Strategic Vision: vision_and_strategy/1.1.4_establish_strategic_vision.md
-    - Develop Business Strategy:
-      - Overview: vision_and_strategy/1.2_develop_business_strategy.md
-      - Competitive Landscape: vision_and_strategy/1.2.1_analyze_competitive_landscape.md
-      - Strategic Goals: vision_and_strategy/1.2.2_define_strategic_goals.md
-      - Business Strategy: vision_and_strategy/1.2.3_develop_business_strategy.md
-    - Manage Strategic Initiatives:
-      - Overview: vision_and_strategy/1.3_manage_strategic_initiatives.md
-  - Products and Services:
-    - Overview: products_and_services/index.md
-    - Design Product: products_and_services/2.1_design_product.md
-    - Develop Product: products_and_services/2.2_develop_product.md
-
-repo_name: mikhailcheng/pcf-pages
-repo_url: https://github.com/mikhailcheng/pcf-pages
-edit_uri: edit/main/docs/
+  - Vision and Strategy: vision_and_strategy/index.md
+  - Products and Services: products_and_services/index.md
+  - Market and Sell: market_and_sell/index.md
+  - Supply Chain: supply_chain/index.md
+  - Deliver Services: deliver_services/index.md
+  - Customer Service: customer_service/index.md
+  - Human Capital: human_capital/index.md
+  - Information Technology: information_technology/index.md
+  - Financial Resources: financial_resources/index.md
+  - Assets: assets/index.md
+  - Enterprise Risk: enterprise_risk/index.md
